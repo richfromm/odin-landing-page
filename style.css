@@ -1,6 +1,8 @@
 body {
   font-family: roboto, sans-serif;
   background: #FFF;
+  display: flex;
+  flex-direction: column;
 }
 
 .header,
