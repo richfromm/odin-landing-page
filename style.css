@@ -3,6 +3,9 @@ body {
   background: #FFF;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .header,
@@ -24,6 +27,7 @@ body {
 
 .header-links,
 .hero-text,
+.hero img,
 .footer {
   font-size: 18px;
   color: #E5E7EB;
@@ -80,4 +84,84 @@ button,
 .signup button {
   border-color: #FFF;
   border-style: solid;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-text {
+  text-align: center;
+}
+
+.quote {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.signup {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.signup-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-margins {
+  padding-left: 220px;
+  padding-right: 220px;
 }
