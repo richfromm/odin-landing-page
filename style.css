@@ -1,5 +1,6 @@
 body {
   font-family: roboto, sans-serif;
+  background: #FFF;
 }
 
 .header,
@@ -15,34 +16,66 @@ body {
 
 .hero h1 {
   font-size: 48px;
-  font-style: extra-bold;
+  font-weight: extra-bold;
   color: #F9FAF8;
 }
 
 .header-links,
-.hero-text {
+.hero-text,
+.footer {
   font-size: 18px;
   color: #E5E7EB;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  color: #E5E7EB;
+}
+
+.header-links a {
+  text-decoration: none;
+}
+
 .info h2 {
   font-size: 36px;
-  font-style: extra-bold;
+  font-weight: extra-bold;
   color: #1F2937;
+}
+
+.item {
+  color: #4B5564;
 }
 
 .quote {
   background: #E5E7EB;
+  color: #1F2937;
 }
 
 .quote-text {
   font-size: 36px;
   font-weight: light;
   font-style: italic;
-  color: #1F2937;
+}
+
+.quote-author {
+  font-weight: bold;
 }
 
 button,
 .signup {
+  color: #FFF;
   background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.hero button {
+  border: none;
+}
+
+.signup button {
+  border-color: #FFF;
+  border-style: solid;
 }
