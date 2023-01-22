@@ -1,4 +1,5 @@
 body {
+  /* XXX don't leave the fallback serif, it's just for debugging */
   font-family: roboto, /*sans-*/serif;
   background: #FFF;
   display: flex;
@@ -34,6 +35,11 @@ body {
 .footer-inner {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.info-inner img {
+  width: 144px;
+  height: 144px;
 }
 
 .info-outer,
@@ -142,23 +148,29 @@ button,
 
 .info-outer {
   flex: 5;
+  padding: 1em;
 }
 
 .info-inner {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
 .items {
   display: flex;
   flex-direction: row;
+  padding-top: -4em;
+  padding-bottom: 4em;
+  gap: 1em;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.5em;
 }
 
 .item-text {
@@ -166,7 +178,8 @@ button,
 }
 
 .quote-outer {
-  flex: 4;
+  flex: 5;
+  padding: 1em;
 }
 
 .quote-inner {
