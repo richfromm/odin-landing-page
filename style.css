@@ -8,9 +8,12 @@ body {
   margin: 0;
 }
 
-.header,
-.hero,
-.footer {
+.header-outer,
+.header-inner,
+.hero-outer,
+.hero-inner,
+.footer-outer,
+.footer-inner {
   background: #1F2937;
 }
 
@@ -19,7 +22,7 @@ body {
   color: #F9FAF8;
 }
 
-.hero h1 {
+.hero-inner h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
@@ -27,10 +30,15 @@ body {
 
 .header-links,
 .hero-text,
-.hero img,
-.footer {
+.hero-inner img,
+.footer-inner {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.info-outer,
+.info-inner {
+  background-color: #FFF;
 }
 
 ul {
@@ -45,7 +53,7 @@ a {
   text-decoration: none;
 }
 
-.info h2 {
+.info-inner h2 {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
@@ -55,7 +63,8 @@ a {
   color: #4B5564;
 }
 
-.quote {
+.quote-outer,
+.quote-inner{
   background: #E5E7EB;
   color: #1F2937;
 }
@@ -71,23 +80,26 @@ a {
 }
 
 button,
-.signup {
+.signup-inner {
   color: #FFF;
   background-color: #3882F6;
   border-radius: 8px;
 }
 
-.hero button {
+.hero-inner button {
   border: none;
 }
 
-.signup button {
+.signup-inner button {
   border-color: #FFF;
   border-style: solid;
 }
 
-.header {
+.header-outer {
   flex: 1;
+}
+
+.header-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -99,7 +111,7 @@ button,
   justify-content: space-between;
 }
 
-.hero {
+.hero-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,8 +123,11 @@ button,
   justify-content: space-between;
 }
 
-.info {
+.info-outer {
   flex: 5;
+}
+
+.info-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,16 +148,22 @@ button,
   text-align: center;
 }
 
-.quote {
+.quote-outer {
   flex: 4;
+}
+
+.quote-inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
 
-.signup {
+.signup-outer {
   flex: 3;
+}
+
+.signup-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -154,14 +175,31 @@ button,
   justify-content: space-between;
 }
 
-.footer {
+.footer-outer {
   flex: 1;
+}
+
+.footer-inner {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.big-margins {
-  padding-left: 220px;
-  padding-right: 220px;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.empty {
+  flex-grow: 5;
+  flex-shrink: 1;
+  flex-basis: 210px;
+}
+
+.content {
+  flex-grow: 1;
+  flex-shrink: 5;
+  flex-basis: 1200px;
 }
