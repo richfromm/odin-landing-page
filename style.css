@@ -103,8 +103,13 @@ button,
 }
 
 .signup-inner button {
+  width: 8em;
+  height: 2.5em;
+  font-size: 16px;
+  font-weight: bold;
   border-color: #FFF;
   border-style: solid;
+  border-width: 3px;
 }
 
 .header-outer {
@@ -178,7 +183,8 @@ button,
 .signup-inner {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 4em;
   margin-bottom: 4em;
 }
@@ -186,7 +192,16 @@ button,
 .signup-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.signup-left .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-text {
+  color: #E5E7EB;
 }
 
 .footer-outer {
