@@ -1,5 +1,5 @@
 body {
-  font-family: roboto, sans-serif;
+  font-family: roboto, /*sans-*/serif;
   background: #FFF;
   display: flex;
   flex-direction: column;
@@ -22,9 +22,9 @@ body {
   color: #F9FAF8;
 }
 
-.hero-inner h1 {
+.hero-inner .title {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bold;
   color: #F9FAF8;
 }
 
@@ -59,9 +59,9 @@ a {
   text-decoration: none;
 }
 
-.info-inner h2 {
+.info-inner .title {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: bold;
   color: #1F2937;
 }
 
