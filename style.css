@@ -50,11 +50,17 @@ body {
   /*
   height: auto;
   width: 40%;
+  max-height: 100%;
  */
+  /*max-width: 40%;*/
+  /*max-height: 50%;*/
+  /*
   height: 100%;
   width: auto;
-  max-width: 50%;
-  /*max-height: 50%;*/
+ */
+  height: auto;
+  width: auto;
+  max-width: 40%;
 }
 
 .info-inner img {
@@ -162,6 +168,10 @@ button,
 
 .hero-outer {
   flex: 2;
+  /*max-height: 300px;*/
+  max-height: 20em;
+  /* max-height: 20vh; */
+  /*max-height: 1%;*/
 }
 
 .hero-inner {
