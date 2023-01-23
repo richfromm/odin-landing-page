@@ -2,7 +2,8 @@
 
 This is the [Landing
 Page](https://www.theodinproject.com/lessons/foundations-landing-page)
-project from Foundations Course of The Odin Project.
+project from Foundations Course of [The Odin
+Project](https://www.theodinproject.com/).
 
 The assignment is to mimic the page shown
 [here](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png),
