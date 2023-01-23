@@ -16,6 +16,6 @@ available from [Google Fonts](https://fonts.google.com/).
 Pictures are mine. Content is just filler, b/c after this much CSS
 fiddling I'm feeling a bit lazy.
 
-On the extremely unlikely scenario that someone wants to reuse any of
+In the extremely unlikely scenario that someone wants to reuse any of
 this, my work for this assignment is licensed [CC BY
 4.0](https://creativecommons.org/licenses/by/4.0/).
