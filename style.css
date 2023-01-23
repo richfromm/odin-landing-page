@@ -1,6 +1,5 @@
 body {
-  /* XXX don't leave the fallback serif, it's just for debugging */
-  font-family: roboto, /*sans-*/serif;
+  font-family: roboto, serif;
   background: #FFF;
   display: flex;
   flex-direction: column;
@@ -43,21 +42,7 @@ body {
   gap: 5%;
 }
 
-/* XXX need to fiddle with this more */
 .hero-inner img {
-  /* height: 80%; */
-  /* max-width: 40%; */
-  /*
-  height: auto;
-  width: 40%;
-  max-height: 100%;
- */
-  /*max-width: 40%;*/
-  /*max-height: 50%;*/
-  /*
-  height: 100%;
-  width: auto;
- */
   height: auto;
   width: auto;
   max-width: 40%;
@@ -168,10 +153,7 @@ button,
 
 .hero-outer {
   flex: 2;
-  /*max-height: 300px;*/
   max-height: 20em;
-  /* max-height: 20vh; */
-  /*max-height: 1%;*/
 }
 
 .hero-inner {
