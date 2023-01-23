@@ -37,6 +37,26 @@ body {
   color: #E5E7EB;
 }
 
+.hero-inner {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  gap: 5%;
+}
+
+/* XXX need to fiddle with this more */
+.hero-inner img {
+  /* height: 80%; */
+  /* max-width: 40%; */
+  /*
+  height: auto;
+  width: 40%;
+ */
+  height: 100%;
+  width: auto;
+  max-width: 50%;
+  /*max-height: 50%;*/
+}
+
 .info-inner img {
   width: 144px;
   height: 144px;
@@ -105,6 +125,10 @@ button,
 }
 
 .hero-inner button {
+  width: 8em;
+  height: 2.5em;
+  font-size: 16px;
+  font-weight: bold;
   border: none;
 }
 
@@ -126,24 +150,32 @@ button,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1.5em;
+}
+
+.hero-outer {
+  flex: 2;
 }
 
 .hero-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 .info-outer {
@@ -190,7 +222,7 @@ button,
 }
 
 .signup-outer {
-  flex: 3;
+  flex: 4;
 }
 
 .signup-inner {
@@ -198,8 +230,8 @@ button,
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .signup-left {
